@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="addtocart.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <p class="logo">Farmer Friends</p>
+        </div>
+    </header>
+    <section class="contact">
+    
+       <div class="row">
+          <div class="image">
+             <img src="buy.jpg" alt="">
+          </div>
+          <form action="buy.php" method="post">
+             <h3>Buy </h3>
+             <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+             <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+             <input type="number" name="number" required maxlength="10" placeholder="enter your number" class="box">
+             <textarea name="address" placeholder="enter your address" required maxlength="1000" cols="30" rows="10" class="box"></textarea>
+             <input type="submit" value="Buy Now" name="submit" class="btn" onclick="window.location.href='product.html'">
+          </form>
+       </div>
+    
+    </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>
